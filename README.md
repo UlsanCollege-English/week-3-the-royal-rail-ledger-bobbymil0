@@ -34,15 +34,22 @@ and compared values moving toward the center.
 - Removing nodes: O(n)
 - Palindrome check: O(n)
 
-## Edge Cases
+## Edge-Case Checklist
 
-- Empty list
-- Single node list
-- Removing head node
-- Removing tail node
-- Removing all nodes
-- Consecutive duplicate values
-- Even and odd palindrome cases
+- [x] empty SLL
+- [ ] single-node SLL
+- [x] no repeated values in SLL
+- [x] repeated value appears later in SLL
+- [x] repeated value includes the head value
+- [x] empty DLL
+- [ ] single-node DLL
+- [x] removing from DLL when target is at head
+- [x] removing from DLL when target is at tail
+- [x] removing consecutive target values in DLL
+- [x] removing all nodes from DLL
+- [x] palindrome with odd length
+- [x] palindrome with even length
+- [x] non-palindrome DLL
 
 ## Assistance & Sources
 
